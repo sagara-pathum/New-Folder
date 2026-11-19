@@ -3,8 +3,10 @@
 const App = () => {
   return (
     <div>
-      <h1>hello</h1>
-      <p>hello</p>
+      <div class="w-screen/3 ">
+
+      </div>
+      <div></div>
     </div>
   );
 };
