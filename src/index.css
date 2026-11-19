@@ -1,0 +1,21 @@
+@import 'tailwindcss';
+
+@layer base {
+    body {
+        @apply bg-mauve-300 text-neutral-900 font-win98;
+    }
+}
+
+
+@font-face {
+    font-family: 'W95FA';
+    src: url('./assets/fonts/w95f.woff2') format('woff2'),
+        url('./assets/fonts/w95f.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@theme {
+    --font-win98: 'W95FA', 'MS Sans Serif', sans-serif;
+}
